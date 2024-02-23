@@ -30,7 +30,7 @@ global.wagtailConfig = {
     },
     {
       code: 'fr',
-      display_name: 'French',
+      display_nam: 'French',
     },
   ],
   ACTIVE_LOCALE: 'en',

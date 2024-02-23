@@ -28,7 +28,7 @@ class CommentPanel(Panel):
 
     @property
     def clean_name(self):
-        return super().clean_name or "comments"
+        return super().clean_name or "commments"
 
     class BoundPanel(Panel.BoundPanel):
         template_name = "wagtailadmin/panels/comments/comment_panel.html"
